@@ -1,0 +1,84 @@
+{
+  "project": "PEEKABOO / NOT FOUND YET",
+  "version": "storyboard-v1",
+  "fps": 24,
+  "canvas": {
+    "width": 1448,
+    "height": 1086,
+    "aspect": "4:3"
+  },
+  "duration_frames": 2160,
+  "duration_seconds": 90,
+  "soundtrack": {
+    "status": "reference-only; no licensed audio embedded",
+    "artist": "Swallow",
+    "track": "Peekaboo"
+  },
+  "visual_master": "assets/images/IMG-001-tree-hide-v01.png",
+  "image_prompt_source": "prompts/seven-shots-image-prompts-v1.md",
+  "shots": [
+    {
+      "id": "SH01",
+      "title_zh": "午后",
+      "start_frame": 0,
+      "duration_frames": 240,
+      "keyframe": "assets/frames/SH01-v01.png",
+      "status": "not-yet-provided",
+      "animation": "static courtyard; distant running children; 1-2 leaf groups move"
+    },
+    {
+      "id": "SH02",
+      "title_zh": "躲藏",
+      "start_frame": 240,
+      "duration_frames": 240,
+      "keyframe": "assets/frames/SH02-v01.png",
+      "status": "not-yet-provided",
+      "animation": "boy climbs tree with articulated poses; counting child"
+    },
+    {
+      "id": "SH03",
+      "title_zh": "树上",
+      "start_frame": 480,
+      "duration_frames": 288,
+      "keyframe": "assets/images/IMG-001-tree-hide-v01.png",
+      "status": "reference image provided in chat; GitHub binary not yet confirmed",
+      "animation": "subtle independent leaf clusters; possible candy wrapper; boy mostly still"
+    },
+    {
+      "id": "SH04",
+      "title_zh": "抬头",
+      "start_frame": 768,
+      "duration_frames": 336,
+      "keyframe": "assets/frames/SH04-v01.png",
+      "status": "not-yet-provided",
+      "animation": "Kong enters, stops and raises head, gaze unresponsive"
+    },
+    {
+      "id": "SH05",
+      "title_zh": "视而不见",
+      "start_frame": 1104,
+      "duration_frames": 384,
+      "keyframe": "assets/frames/SH05-v01.png",
+      "status": "not-yet-provided",
+      "animation": "boy leans forward, tiny shadow misregistration; friend not reacting"
+    },
+    {
+      "id": "SH06",
+      "title_zh": "离身",
+      "start_frame": 1488,
+      "duration_frames": 360,
+      "keyframe": "assets/frames/SH06-v01.png",
+      "status": "not-yet-provided",
+      "animation": "viewpoint separates through layered parallax; one boy only"
+    },
+    {
+      "id": "SH07",
+      "title_zh": "无人寻找",
+      "start_frame": 1848,
+      "duration_frames": 312,
+      "keyframe": "assets/frames/SH07-v01.png",
+      "status": "not-yet-provided",
+      "animation": "very wide stillness, tiny boy in tree, fade motion, cut black"
+    }
+  ]
+}
