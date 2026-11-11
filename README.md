@@ -25,6 +25,7 @@
 | [视觉方向与风格判断](docs/02-art-direction.md) | A/B/C 风格探索、色板、反 AI slop 清单 |
 | [90 秒分镜 v0.1](docs/03-storyboard-v01.md) | 时间轴、镜头动作、视觉转折 |
 | [代码驱动动画技术决策](docs/05-animation-engineering-decision.md) | PixiJS / 2.5D vs Three.js，8–12 秒镜头架构 |
+| [Code-as-Video GitHub 项目调研](docs/06-code-as-video-github-research.md) | lemo-wake / lemo-opuscar / Remotion / Motion Canvas 等工具对比，版权和安装注意 |
 | [Codex 直接执行交接](handoff/CODEX_PHASE1_2_5D.md) | 可运行原型、skill 检测、分层、导出与验证 |
 | [Codex 代理仓库规则](AGENTS.md) | 后续执行时优先阅读的艺术/工程约束 |
 | [EXP-002 代码驱动实验](production/experiments/EXP-002-code-driven-2-5d.md) | 实验假设、质量门槛与状态 |
