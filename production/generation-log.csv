@@ -1,0 +1,4 @@
+asset_id,date,type,shot_id,status,model,source_filename,repo_target,notes
+IMG-001,2026-11-11,image,SH03/SH07,provided,ChatGPT? unverified,cac5adfd-e8cb-4b91-be36-bc5dd5f6ef7e.png,assets/images/IMG-001-tree-hide-v01.png,"Original 1448x1086 PNG provided in chat; actual generation prompt and model not independently verified; binary original pending upload"
+VID-001,2026-11-11,video,TBD,generating,MiniMax version TBD,TBD,assets/video/VID-001-first-test-run01.mp4,"User said generation in progress; no video file received"
+SH04-KEY,2026-11-11,image,SH04,planned,TBD,TBD,assets/images/SH04-look-up-keyframe-v01.png,"Need second boy beneath tree before first-frame video test"
