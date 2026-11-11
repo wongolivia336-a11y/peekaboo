@@ -8,7 +8,10 @@ Before implementation, read:
 2. `docs/02-art-direction.md`
 3. `docs/03-storyboard-v01.md`
 4. `docs/05-animation-engineering-decision.md`
-5. `handoff/CODEX_PHASE1_2_5D.md`
+5. `handoff/CODEX_PHASE1_2_5D.md` (single-shot prototype, historical plan)
+6. `prompts/seven-shots-image-prompts-v1.md` (full seven keyframes)
+7. `handoff/CODEX_SEVEN_SHOT_FILM_V1.md` (current full-film production brief)
+8. `production/shotlist-v1.json` (machine-readable timeline)
 6. `production/ASSETS.md`
 
 ## Non-negotiables
