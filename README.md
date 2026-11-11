@@ -24,6 +24,9 @@
 | [文学研究与改编边界](docs/01-literary-research.md) | 原作线索、主旨解读、事实 / 想象区分 |
 | [视觉方向与风格判断](docs/02-art-direction.md) | A/B/C 风格探索、色板、反 AI slop 清单 |
 | [90 秒分镜 v0.1](docs/03-storyboard-v01.md) | 时间轴、镜头动作、视觉转折 |
+| **[七镜头完整生图提示词 v1.0](prompts/seven-shots-image-prompts-v1.md)** | 每镜完整独立英文 prompt + Codex 运动指导 |
+| **[Codex 七镜头整片交接](handoff/CODEX_SEVEN_SHOT_FILM_V1.md)** | Skill 检查、安装、90 秒时间轴、代码动画、渲染与提交 |
+| [机器可读七镜头表](production/shotlist-v1.json) | 24fps / 2160 帧 / 7 镜头的确定性时间范围 |
 | [代码驱动动画技术决策](docs/05-animation-engineering-decision.md) | PixiJS / 2.5D vs Three.js，8–12 秒镜头架构 |
 | [Code-as-Video GitHub 项目调研](docs/06-code-as-video-github-research.md) | lemo-wake / lemo-opuscar / Remotion / Motion Canvas 等工具对比，版权和安装注意 |
 | [Codex 直接执行交接](handoff/CODEX_PHASE1_2_5D.md) | 可运行原型、skill 检测、分层、导出与验证 |
