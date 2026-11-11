@@ -1,0 +1,7 @@
+{
+ "name":"peekaboo-code-animated","private":true,"version":"0.1.0","type":"module",
+ "description":"Seven-shot 90-second hand-painted code-animation; original images preserved",
+ "scripts":{"dev":"http-server . -p 4173 -c-1 -a 127.0.0.1","prepare:layers":"python tools/prepare_layers.py","render:video":"node tools/export-video.cjs","check":"node tools/check.mjs"},
+ "engines":{"node":">=18"},
+ "devDependencies":{"http-server":"^14.1.1","skia-canvas":"^3.0.8"}
+}

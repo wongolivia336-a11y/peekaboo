@@ -1,0 +1,56 @@
+{
+  "imported": "2026-11-11",
+  "canonical_reference": "assets/images/IMG-001-tree-hide-chat-recovered.png",
+  "notes": "Seven images from current user turn; prior image is separately archived (not bit-identical to historical manifest SHA). Do not replace originals.",
+  "frames": [
+    {
+      "shot": "SH01",
+      "original_chat_name": "2adf353d-703e-4f42-954f-6919fca0ef6f.png",
+      "path": "assets/frames/SH01-v01.png",
+      "sha256": "01ee367604537b2844c30abe9c697356cf4a9df8e2a0199d26e50af48b72edf4",
+      "size": 3650768
+    },
+    {
+      "shot": "SH02",
+      "original_chat_name": "3808dee3-011b-46ff-a273-092b58e6465d.png",
+      "path": "assets/frames/SH02-v01.png",
+      "sha256": "be251e5cb1cb79c221906762aa795cd0fc6fcc9a355cf57a61d1e4fdd52183e1",
+      "size": 3645859
+    },
+    {
+      "shot": "SH03",
+      "original_chat_name": "55f80e18-3ce2-477a-9311-cf449284de53.png",
+      "path": "assets/frames/SH03-v01.png",
+      "sha256": "ce6e7c69863c1903b52ed632f44cdf717476b77405acff1797365084666699e1",
+      "size": 3681244
+    },
+    {
+      "shot": "SH04",
+      "original_chat_name": "d5c09d08-a47e-4f60-a0e0-f91b41e004a8.png",
+      "path": "assets/frames/SH04-v01.png",
+      "sha256": "a313a1965525180baae8f9b5c475e4dc497d9f341e6550a965ffb2f90c0ce68f",
+      "size": 3525202
+    },
+    {
+      "shot": "SH05",
+      "original_chat_name": "8b8eb373-dc3b-414d-a791-e37203cab60d.png",
+      "path": "assets/frames/SH05-v01.png",
+      "sha256": "be854af32d6372d9c5ea53262a92f7068fb5cbea86ffa4a5c3ae4d1880db0cd9",
+      "size": 3589133
+    },
+    {
+      "shot": "SH06",
+      "original_chat_name": "c99ce779-2f24-452a-8fe8-575bb27eb5ed.png",
+      "path": "assets/frames/SH06-v01.png",
+      "sha256": "d23d4c53f7f9ecc331c80d4a9c63313821b87bd46cf68418987ca7c37591ee49",
+      "size": 3464093
+    },
+    {
+      "shot": "SH07",
+      "original_chat_name": "73441592-fbd8-4783-99d7-df2f1cea34d3.png",
+      "path": "assets/frames/SH07-v01.png",
+      "sha256": "25aef37d4c7e33483e5fa5d73ec52f68db082c69e0277b87ad6553fb7ab97745",
+      "size": 3726805
+    }
+  ]
+}

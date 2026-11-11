@@ -1,8 +1,7 @@
-# Local transient outputs
+node_modules/
 .DS_Store
-Thumbs.db
-*.tmp
-*.part
-__pycache__/
 *.log
-# Do not ignore original research assets; commit them deliberately.
+edits/renders/segment-*.mp4
+edits/renders/segments.txt
+edits/previews/frame-*.png
+edits/previews/video-still-*.jpg

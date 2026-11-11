@@ -1,0 +1,204 @@
+{
+  "SH01": {
+    "base": "assets/frames/SH01-v01.png",
+    "layers": {
+      "SH01_leaf_a": {
+        "path": "assets/layers/SH01_leaf_a.png",
+        "x": 288,
+        "y": 0,
+        "width": 469,
+        "height": 250
+      },
+      "SH01_leaf_b": {
+        "path": "assets/layers/SH01_leaf_b.png",
+        "x": 682,
+        "y": 0,
+        "width": 425,
+        "height": 355
+      },
+      "SH01_runner_a": {
+        "path": "assets/layers/SH01_runner_a.png",
+        "x": 997,
+        "y": 739,
+        "width": 47,
+        "height": 73
+      },
+      "SH01_runner_b": {
+        "path": "assets/layers/SH01_runner_b.png",
+        "x": 1029,
+        "y": 737,
+        "width": 51,
+        "height": 75
+      },
+      "SH01_runner_c": {
+        "path": "assets/layers/SH01_runner_c.png",
+        "x": 1060,
+        "y": 739,
+        "width": 51,
+        "height": 73
+      },
+      "SH01_runner_d": {
+        "path": "assets/layers/SH01_runner_d.png",
+        "x": 1091,
+        "y": 743,
+        "width": 65,
+        "height": 73
+      }
+    },
+    "fidelity": "original painting as immutable base; localized manual overlays",
+    "restored_base": "assets/layers/SH01_restored_bg.png",
+    "restoration": "OpenCV Telea inpaint under isolated actor mattes; hand repair needed for final"
+  },
+  "SH02": {
+    "base": "assets/frames/SH02-v01.png",
+    "layers": {
+      "SH02_leaf_a": {
+        "path": "assets/layers/SH02_leaf_a.png",
+        "x": 280,
+        "y": 0,
+        "width": 445,
+        "height": 279
+      },
+      "SH02_leaf_b": {
+        "path": "assets/layers/SH02_leaf_b.png",
+        "x": 996,
+        "y": 0,
+        "width": 452,
+        "height": 436
+      },
+      "SH02_runner_girl": {
+        "path": "assets/layers/SH02_runner_girl.png",
+        "x": 395,
+        "y": 641,
+        "width": 151,
+        "height": 231
+      },
+      "SH02_runner_back": {
+        "path": "assets/layers/SH02_runner_back.png",
+        "x": 792,
+        "y": 644,
+        "width": 85,
+        "height": 171
+      }
+    },
+    "fidelity": "original painting as immutable base; localized manual overlays",
+    "restored_base": "assets/layers/SH02_restored_bg.png",
+    "restoration": "OpenCV Telea inpaint under isolated actor mattes; hand repair needed for final"
+  },
+  "SH03": {
+    "base": "assets/frames/SH03-v01.png",
+    "layers": {
+      "SH03_leaf_a": {
+        "path": "assets/layers/SH03_leaf_a.png",
+        "x": 82,
+        "y": 0,
+        "width": 437,
+        "height": 346
+      },
+      "SH03_leaf_b": {
+        "path": "assets/layers/SH03_leaf_b.png",
+        "x": 511,
+        "y": 0,
+        "width": 446,
+        "height": 342
+      },
+      "SH03_leaf_c": {
+        "path": "assets/layers/SH03_leaf_c.png",
+        "x": 1135,
+        "y": 142,
+        "width": 313,
+        "height": 400
+      }
+    },
+    "fidelity": "original painting as immutable base; localized manual overlays"
+  },
+  "SH04": {
+    "base": "assets/frames/SH04-v01.png",
+    "layers": {
+      "SH04_leaf_a": {
+        "path": "assets/layers/SH04_leaf_a.png",
+        "x": 4,
+        "y": 0,
+        "width": 548,
+        "height": 444
+      },
+      "SH04_leaf_b": {
+        "path": "assets/layers/SH04_leaf_b.png",
+        "x": 1026,
+        "y": 0,
+        "width": 422,
+        "height": 424
+      },
+      "SH04_looking_head": {
+        "path": "assets/layers/SH04_looking_head.png",
+        "x": 810,
+        "y": 346,
+        "width": 161,
+        "height": 153
+      }
+    },
+    "fidelity": "original painting as immutable base; localized manual overlays",
+    "restored_base": "assets/layers/SH04_restored_bg.png",
+    "restoration": "OpenCV Telea inpaint under isolated actor mattes; hand repair needed for final"
+  },
+  "SH05": {
+    "base": "assets/frames/SH05-v01.png",
+    "layers": {
+      "SH05_leaf_a": {
+        "path": "assets/layers/SH05_leaf_a.png",
+        "x": 613,
+        "y": 0,
+        "width": 500,
+        "height": 311
+      },
+      "SH05_leaf_b": {
+        "path": "assets/layers/SH05_leaf_b.png",
+        "x": 1076,
+        "y": 341,
+        "width": 372,
+        "height": 481
+      },
+      "SH05_hand": {
+        "path": "assets/layers/SH05_hand.png",
+        "x": 328,
+        "y": 908,
+        "width": 175,
+        "height": 157
+      }
+    },
+    "fidelity": "original painting as immutable base; localized manual overlays"
+  },
+  "SH06": {
+    "base": "assets/frames/SH06-v01.png",
+    "layers": {
+      "SH06_leaf_a": {
+        "path": "assets/layers/SH06_leaf_a.png",
+        "x": 0,
+        "y": 0,
+        "width": 572,
+        "height": 515
+      },
+      "SH06_leaf_b": {
+        "path": "assets/layers/SH06_leaf_b.png",
+        "x": 0,
+        "y": 214,
+        "width": 693,
+        "height": 629
+      }
+    },
+    "fidelity": "original painting as immutable base; localized manual overlays"
+  },
+  "SH07": {
+    "base": "assets/frames/SH07-v01.png",
+    "layers": {
+      "SH07_leaf_a": {
+        "path": "assets/layers/SH07_leaf_a.png",
+        "x": 400,
+        "y": 0,
+        "width": 497,
+        "height": 311
+      }
+    },
+    "fidelity": "original painting as immutable base; localized manual overlays"
+  }
+}

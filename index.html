@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PEEKABOO — Code-animated film / Director preview</title>
+<style>
+:root{color-scheme:dark;font-family:ui-monospace,Consolas,'SFMono-Regular',monospace;background:#141715;color:#e4e1d7}*{box-sizing:border-box}
+body{margin:0;min-height:100dvh;display:flex;flex-direction:column;align-items:center;gap:12px;padding:15px}
+header,main,footer{width:min(1200px,100%)}header{display:flex;justify-content:space-between;gap:12px;align-items:end}h1{font-size:15px;letter-spacing:.13em;font-weight:500;margin:0}small{color:#93978e;font-size:11px}
+main{display:flex;flex-direction:column;gap:10px}#frame{background:#272820;aspect-ratio:4/3;width:100%;max-height:calc(100dvh - 194px);object-fit:contain;box-shadow:0 2px 30px #06080766}
+.controls{display:flex;align-items:center;flex-wrap:wrap;gap:9px}button{font:inherit;font-size:12px;border:1px solid #454b42;background:#242a25;color:#e7e3d7;padding:7px 11px;cursor:pointer}button:hover,button:focus-visible{background:#3b4238;outline-color:#b9b69c}#seek{accent-color:#b6b7a0;min-width:130px;flex:1}output{font-size:12px;min-width:125px;font-variant-numeric:tabular-nums}label{font-size:12px;color:#b5b8aa;display:flex;gap:5px;align-items:center}.status{display:flex;justify-content:space-between;gap:12px;font-size:11px;color:#999f96}a{color:#bfc7af;text-decoration:underline}footer{font-size:11px;color:#80887c}
+@media(max-width:600px){body{padding:8px}header{align-items:start;flex-direction:column}#frame{max-height:none}h1{font-size:12px}button{padding:8px}}
+</style></head>
+<body><header><h1>PEEKABOO / NOT FOUND YET</h1><small>DIRECTOR'S WORKPRINT · 90s / 24 fps / 4:3</small></header>
+<main><canvas id="frame" width="1448" height="1086" aria-label="Animated film preview"></canvas>
+<div class="controls">
+<button id="play" title="Space">Play</button><button id="back" title="Left arrow">−1f</button><button id="forward" title="Right arrow">+1f</button>
+<input id="seek" aria-label="Seek video" type="range" min="0" max="2159" value="0" step="1"><output id="clock">00:00:00 / 2160</output>
+</div><div class="controls">
+<label><input id="ab" type="checkbox"> Original A/B</label>
+<label><input id="leaf" type="checkbox" checked> Foliage</label>
+<label><input id="actor" type="checkbox" checked> Actors</label>
+<label><input id="motion" type="checkbox" checked> Motion</label>
+<label><input id="shadow" type="checkbox" checked> Shadow</label>
+</div><div class="status"><span id="shot">Loading...</span><span id="debug">Painted originals are archived, not overwritten</span></div>
+</main><footer>Preview controls are development-only. The export contains the painting, not this UI. Music reference is not embedded.</footer>
+<script type="module" src="./src/player.mjs"></script></body></html>
