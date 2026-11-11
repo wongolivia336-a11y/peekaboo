@@ -1,0 +1,8 @@
+# Local transient outputs
+.DS_Store
+Thumbs.db
+*.tmp
+*.part
+__pycache__/
+*.log
+# Do not ignore original research assets; commit them deliberately.
