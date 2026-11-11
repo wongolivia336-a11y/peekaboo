@@ -1,0 +1,81 @@
+:root {
+  color-scheme: dark;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: #1f211c;
+  color: #e8ddbc;
+}
+
+* { box-sizing: border-box; }
+html, body { min-width: 100%; min-height: 100%; margin: 0; }
+body { min-height: 100vh; background: #1f211c; }
+
+#app-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 18px;
+  padding: 18px;
+}
+
+.stage-wrap {
+  position: relative;
+  min-height: calc(100vh - 36px);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #151613;
+  border: 1px solid rgba(232, 221, 188, 0.12);
+}
+
+#stage-host {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+
+#stage-host canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.loading { color: #aab78a; letter-spacing: .08em; font-size: 12px; }
+.runtime-error { position: fixed; inset: 16px; z-index: 20; padding: 16px; background: #2b1d1d; color: #ffd5c8; white-space: pre-wrap; font: 12px/1.5 ui-monospace, monospace; overflow: auto; }
+.debug-panel { padding: 18px 4px 8px 0; }
+.eyebrow, .layer-heading { color: #aab78a; font-size: 10px; letter-spacing: .18em; text-transform: uppercase; }
+h1 { margin: 12px 0 8px; font-family: Georgia, serif; font-weight: 400; font-size: 29px; line-height: 1; }
+h1 span { display: block; margin-top: 8px; color: #9385a1; font-family: "Segoe UI", sans-serif; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+.dek { color: rgba(232,221,188,.65); font-size: 13px; line-height: 1.45; margin: 0 0 20px; }
+.transport, .export-row { display: flex; align-items: center; gap: 7px; }
+button, select { border: 1px solid rgba(232,221,188,.22); background: #30332e; color: #e8ddbc; padding: 7px 9px; font: inherit; font-size: 12px; cursor: pointer; }
+button:hover, button:focus-visible, select:focus-visible { border-color: #e8ddbc; outline: none; }
+output { color: #e8ddbc; font-variant-numeric: tabular-nums; }
+#time-readout { margin-left: auto; color: #aab78a; font-size: 12px; }
+.scrub-label, .control-grid label { display: grid; gap: 8px; color: rgba(232,221,188,.72); font-size: 11px; letter-spacing: .06em; margin-top: 18px; }
+.scrub-label span { float: right; color: #9385a1; }
+input[type="range"] { accent-color: #aab78a; width: 100%; }
+.control-grid { display: grid; gap: 4px; }
+.control-grid label output { float: right; }
+.control-grid select { width: 100%; }
+.layer-list { border-top: 1px solid rgba(232,221,188,.14); border-bottom: 1px solid rgba(232,221,188,.14); margin: 22px 0 16px; padding: 14px 0; display: grid; gap: 9px; }
+.layer-list label { display: flex; gap: 8px; align-items: center; color: rgba(232,221,188,.78); font-size: 12px; }
+.layer-list input { accent-color: #aab78a; }
+.export-row { margin-top: 12px; }
+.export-row span { color: #9385a1; font-size: 10px; letter-spacing: .08em; margin-left: auto; }
+footer { margin-top: 22px; color: rgba(232,221,188,.42); font-size: 10px; line-height: 1.6; }
+code { color: #aab78a; }
+
+.capture-mode { background: #151613; overflow: hidden; }
+.capture-mode #app-shell { display: block; min-height: 100vh; padding: 0; }
+.capture-mode .stage-wrap { min-height: 100vh; border: 0; }
+.capture-mode .debug-panel, .capture-mode .loading { display: none; }
+
+@media (max-width: 900px) {
+  #app-shell { grid-template-columns: 1fr; }
+  .stage-wrap { min-height: auto; aspect-ratio: 4 / 3; }
+  .debug-panel { padding: 0 2px 18px; }
+}
+
+

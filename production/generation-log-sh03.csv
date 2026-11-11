@@ -1,0 +1,8 @@
+timestamp,shot,asset,operation,status,notes
+2026-11-11T16:00:00+08:00,SH03,IMG-001-tree-hide-v01.png,source-lock,pass,"SHA-256 5bdda3d0d314a20af09df6ef1480ccc888a002ee5a3054228e88857c2c9730f4; 1448x1086"
+2026-11-11T16:15:00+08:00,SH03,foliage-left|foliage-middle|foliage-front|boy|shadow,manual-matte,pass,"Source-coordinate masks and RGBA crops generated; provenance in assets/layers/layers.json"
+2026-11-11T16:25:00+08:00,SH03,static-underlay.png,bounded-completion,pass,"Gaussian source continuation only under moved-owner union; not claimed as recovered pixels"
+2026-11-11T16:40:00+08:00,SH03,PixiJS 8.22.0,scene-runtime,pass,"MeshSimple owners, masks, deterministic timeline, scrubber, layer isolation"
+2026-11-11T17:28:00+08:00,SH03,Edge headless evidence,browser-review,pass,"Clean captures at 0.0/2.5/5.0/7.5/10.0 seconds"
+2026-11-11T17:35:00+08:00,SH03,img2threejs v2.0.1,skill-install,blocked-by-upstream,"Official CLI reports Windows not supported yet; symlink install failed with EPERM; doctor run and recorded"
+

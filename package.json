@@ -1,7 +1,25 @@
 {
- "name":"peekaboo-code-animated","private":true,"version":"0.1.0","type":"module",
- "description":"Seven-shot 90-second hand-painted code-animation; original images preserved",
- "scripts":{"dev":"http-server . -p 4173 -c-1 -a 127.0.0.1","prepare:layers":"python tools/prepare_layers.py","render:video":"node tools/export-video.cjs","check":"node tools/check.mjs"},
- "engines":{"node":">=18"},
- "devDependencies":{"http-server":"^14.1.1","skia-canvas":"^3.0.8"}
+  "name": "peekaboo-sh03-2-5d",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "assets": "python scripts/build-assets.py",
+    "dev": "node .deps/node_modules/vite/bin/vite.js --host 127.0.0.1",
+    "build": "node .deps/node_modules/typescript/lib/tsc.js --noEmit && node .deps/node_modules/vite/bin/vite.js build",
+    "typecheck": "node .deps/node_modules/typescript/lib/tsc.js --noEmit",
+    "test": "node scripts/test-timeline.mjs",
+    "capture:evidence": "node scripts/capture-evidence.mjs",
+    "export:frames": "node scripts/export-frames.mjs",
+    "evidence:sheet": "python scripts/make-contact-sheet.py"
+  },
+  "dependencies": {
+    "pixi.js": "8.22.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.2",
+    "vite": "7.1.7"
+  }
 }
+
+

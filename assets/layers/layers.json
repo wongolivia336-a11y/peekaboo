@@ -1,0 +1,214 @@
+{
+  "reference": {
+    "path": "assets/images/IMG-001-tree-hide-v01.png",
+    "sha256": "5bdda3d0d314a20af09df6ef1480ccc888a002ee5a3054228e88857c2c9730f4",
+    "width": 1448,
+    "height": 1086
+  },
+  "completion": {
+    "method": "bounded Gaussian source continuation under moved owners",
+    "authorization": "phase-1 handoff requests masked layer separation; exact hidden pixels remain unknown",
+    "regions": "union of foliage and boy mattes"
+  },
+  "layers": {
+    "foliage-left": {
+      "bbox": [
+        218,
+        34,
+        365,
+        392
+      ],
+      "polygons": [
+        [
+          [
+            220,
+            42
+          ],
+          [
+            291,
+            34
+          ],
+          [
+            384,
+            88
+          ],
+          [
+            481,
+            157
+          ],
+          [
+            563,
+            269
+          ],
+          [
+            535,
+            380
+          ],
+          [
+            447,
+            422
+          ],
+          [
+            356,
+            391
+          ],
+          [
+            289,
+            332
+          ],
+          [
+            242,
+            238
+          ]
+        ]
+      ],
+      "role": "ENV_30_foliage_rear",
+      "provenance": "observed foliage pixels inside a manually traced source-coordinate owner polygon"
+    },
+    "foliage-middle": {
+      "bbox": [
+        468,
+        272,
+        380,
+        382
+      ],
+      "polygons": [
+        [
+          [
+            481,
+            311
+          ],
+          [
+            564,
+            274
+          ],
+          [
+            682,
+            295
+          ],
+          [
+            797,
+            369
+          ],
+          [
+            842,
+            494
+          ],
+          [
+            779,
+            616
+          ],
+          [
+            653,
+            662
+          ],
+          [
+            534,
+            618
+          ],
+          [
+            473,
+            528
+          ]
+        ]
+      ],
+      "role": "ENV_30_foliage_rear",
+      "provenance": "observed foliage pixels inside a manually traced source-coordinate owner polygon"
+    },
+    "foliage-front": {
+      "bbox": [
+        794,
+        0,
+        654,
+        390
+      ],
+      "polygons": [
+        [
+          [
+            793,
+            0
+          ],
+          [
+            932,
+            0
+          ],
+          [
+            1002,
+            64
+          ],
+          [
+            1068,
+            4
+          ],
+          [
+            1179,
+            0
+          ],
+          [
+            1264,
+            61
+          ],
+          [
+            1361,
+            0
+          ],
+          [
+            1448,
+            0
+          ],
+          [
+            1448,
+            392
+          ],
+          [
+            1329,
+            355
+          ],
+          [
+            1221,
+            293
+          ],
+          [
+            1126,
+            355
+          ],
+          [
+            1034,
+            282
+          ],
+          [
+            939,
+            315
+          ],
+          [
+            854,
+            238
+          ]
+        ]
+      ],
+      "role": "ENV_50_foliage_front",
+      "provenance": "observed foreground foliage pixels inside a manually traced source-coordinate owner polygon"
+    },
+    "boy": {
+      "bbox": [
+        880,
+        54,
+        300,
+        530
+      ],
+      "role": "CHAR_40_boy",
+      "provenance": "observed silhouette, manually traced conservative matte"
+    },
+    "shadow": {
+      "bbox": [
+        300,
+        770,
+        900,
+        280
+      ],
+      "role": "FX_60_painted_shadow",
+      "provenance": "observed painted shadow region, low-alpha modulation only"
+    }
+  }
+}
+
