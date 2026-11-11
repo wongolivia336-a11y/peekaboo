@@ -10,7 +10,7 @@ Built a deterministic 7-shot clock (24fps, 2160 frames, total 90s) using a unifi
 
 | SH | Supplied drawing | Code motion | Stage / open problem |
 |----|----|----|----|
-| 01 | Empty courtyard + tiny distant runners | three/four extracted tiny child masks + independently timed irregular leaves | coded draft; tiny children's pixel-matte edges still need finishing |
+| 01 | Empty courtyard + tiny distant runners | three extracted tiny child masks + independently timed irregular leaves | coded draft; tiny children's pixel-matte edges still need finishing |
 | 02 | Tree-climbing pose | two runners offset by separate time curves; leaf group motion | **partial**; principal climbing pose is a fixed drawing, no second frame for convincing ascent |
 | 03 | Boy content in upper tree | three foliage groups independent + single deliberately timed paper scrap drop | **code proof**; boy himself largely static pending rigorous rotoscoping |
 | 04 | Kong looks up from courtyard | head patch rotated slowly on locked body; leaves almost static | coded draft; facial blink/redrawn head profile advisable |
@@ -24,7 +24,7 @@ Built a deterministic 7-shot clock (24fps, 2160 frames, total 90s) using a unifi
 - Skia frame capture: 21 selected frames at beginning/middle/end and key dramatic turns. Contact sheet checked manually.
 - Chromium headless Canvas 2D: actual code rendered SH03 frame 600, SH04 frame 890, SH06 frame 1660 via injected `about:blank`; 0 page errors. Loopback/file navigation blocked by sandbox policy, so interactive route acceptance remains TODO.
 - FFmpeg: individual full-resolution segment tests succeeded; concatenated 1448×1086, 24 fps, 2160 frames, 90.000000 sec, H.264, 4:3. No music/sounds.
-- Aesthetic review and first repair: compared grouped contact-sheet and enlarged SH04/SH05; reduced unmotivated extra darkening at SH05 and reduced distant running-child count in a newer source revision. After these tweaks the final render should be refreshed if its timestamp predates the source; the first 90s verified export remains a legitimate WORKPRINT.
+- Aesthetic review and first repair: compared grouped contact-sheet and enlarged SH04/SH05; reduced unmotivated extra darkening at SH05 and reduced distant running-child count in a newer source revision. After these tweaks, SH01 and SH05 were re-rendered and the full 2160-frame MP4 was re-concatenated and verified again.
 
 ## Faithfulness problems to address next
 

@@ -19,7 +19,14 @@ seek.oninput=()=>{pause();paint(+seek.value)};
 for(const item of Object.values(toggles))item.onchange=()=>paint(at);
 window.addEventListener('keydown',e=>{if(['INPUT','BUTTON'].includes(document.activeElement?.tagName) && e.code==='Space')return;
  if(e.code==='Space'){e.preventDefault();play()}else if(e.code==='ArrowLeft'){e.preventDefault();pause();paint(at-1)}else if(e.code==='ArrowRight'){e.preventDefault();pause();paint(at+1)}});
-async function getImage(path){return new Promise((res,rej)=>{const img=new Image();img.onload=()=>res(img);img.onerror=()=>rej(new Error(path));img.src='./'+path})}
+async function getImage(path){return new Promise((resolve)=>{const img=new Image();img.onload=()=>resolve(img);img.onerror=()=>{
+ // A clearly disclosed GitHub-only painting proxy if original binary is absent.
+ // The downloadable handoff contains exact PNG originals and all matte layers.
+ if(/^assets\/frames\/SH\d{2}-v01\.png$/.test(path)){
+   const proxy=new Image();proxy.onload=()=>resolve(proxy);proxy.onerror=()=>resolve(null);
+   proxy.src='./'+path.replace(/-v01\.png$/,'-proxy.jpg');
+ }else resolve(null);
+};img.src='./'+path})}
 const response=await fetch('./production/layers-manifest.json');manifest=await response.json();
 const paths=resourcePaths(manifest);const pairs=await Promise.all(paths.map(async p=>[p,await getImage(p)]));imgs=Object.fromEntries(pairs);
 paint(0);

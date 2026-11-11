@@ -66,7 +66,7 @@ export function renderFrame(ctx,frame,imgs,manifest,opts={}){
  const s=locate(frame),cfg=manifest[s.id],t=s.time;
  ctx.save();ctx.clearRect(0,0,WIDTH,HEIGHT);
  ctx.fillStyle='#E8DDBC';ctx.fillRect(0,0,WIDTH,HEIGHT);
- const base=imgs[opts.original?cfg.base:(cfg.restored_base||cfg.base)];
+ const base=imgs[opts.original?cfg.base:(cfg.restored_base||cfg.base)] || imgs[cfg.base];
  if(!base){ctx.restore();return s}
  ctx.drawImage(base,0,0,WIDTH,HEIGHT);
  if(opts.original){ctx.restore();return s}

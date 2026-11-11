@@ -1,6 +1,6 @@
 # PEEKABOO — Workprint runner
 
-**Status:** seven-shot, 90-second code-animated **WORKPRINT**, not a finished character-animated film. No sound is shipped. All seven picture assets come from the 2026-11-11 chat upload. All original paintings remain unaltered in `assets/frames/`.
+**Status:** seven-shot, 90-second code-animated **WORKPRINT**, not a finished character-animated film. No sound is shipped. All seven picture assets come from the 2026-11-11 chat upload. All original paintings remain unaltered in `assets/frames/` in the downloadable handoff. GitHub hosts explicitly labeled JPEG painting proxies until original PNG upload can be completed.
 
 ## Run the interactive director's preview
 
@@ -64,3 +64,7 @@ In this execution environment, direct Playwright navigation to `localhost`, `fil
 ## Sound and rights
 
 Swallow — *Peekaboo* is **reference-only**. No download, audio embedding or reproduction has been performed. Add a local, appropriately licensed recording in editing only after verifying usage rights.
+
+## GitHub proxy preview
+
+The GitHub branch includes lightweight `assets/frames/SHxx-proxy.jpg` files so the interactive browser player can show the seven actual paintings even before binary PNG/layer assets are uploaded. Missing mattes are explicitly skipped; a proxy-only checkout is an **artwork animatic**, not the full code-motion workprint. The handoff ZIP contains the original PNG files, all masks/restored backgrounds, and fully rendered MP4. Copy the entire `assets/` folder from the ZIP into the checkout to restore the full editable layered version.
