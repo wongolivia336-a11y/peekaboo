@@ -9,7 +9,8 @@
 - **角色设定**：此时只能视为首版造型探索，尚未做统一的正面、侧面、背面人物设定。
 - **用途提议**：SH03 / SH07 的场景和美术参考，非 SH04 完整树下抬头镜头。
 - **实际 prompt**：未知；见 `prompts/image-v01.md` 的前期提议版本，不能确认是否一字不差被用于生成。
-- **GitHub 原图上传状态**：pending — 尚未上传二进制原图。
+- **原始 PNG SHA-256**：`5bdda3d0d314a20af09df6ef1480ccc888a002ee5a3054228e88857c2c9730f4`（对用户本次上传的字节计算）。
+- **GitHub 原图上传状态**：pending — 尚未上传二进制原图，相关追踪见 [Issue #1](https://github.com/wongolivia336-a11y/peekaboo/issues/1)。
 - **目标相对路径**：`assets/images/IMG-001-tree-hide-v01.png`。
 - **保留原图，不通过覆盖/转码替换正式档案**。
 
