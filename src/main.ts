@@ -1,5 +1,5 @@
 import { ARTBOARD, createPeekabooScene } from "./scene/createPeekabooScene";
-import { DURATION_SECONDS, formatTime } from "./scene/timeline";
+import { DURATION_SECONDS, FPS, formatTime } from "./scene/timeline";
 import "./styles.css";
 
 const isCapture = new URLSearchParams(window.location.search).get("capture") === "1";
@@ -132,6 +132,45 @@ document.querySelector<HTMLButtonElement>("#export-frame")?.addEventListener("cl
   anchor.href = app.canvas.toDataURL("image/png");
   anchor.click();
   if (exportStatus) exportStatus.textContent = "PNG frame saved";
+});
+
+document.querySelector<HTMLButtonElement>("#export-video")?.addEventListener("click", () => {
+  const canvas = app.canvas as HTMLCanvasElement & { captureStream?: (frameRate?: number) => MediaStream };
+  if (!canvas.captureStream || typeof MediaRecorder === "undefined") {
+    if (exportStatus) exportStatus.textContent = "Video capture is not supported in this browser";
+    return;
+  }
+  const mimeType = ["video/webm;codecs=vp9", "video/webm"].find((candidate) => MediaRecorder.isTypeSupported(candidate));
+  if (!mimeType) {
+    if (exportStatus) exportStatus.textContent = "No WebM encoder available";
+    return;
+  }
+  playing = false;
+  seek(0);
+  const stream = canvas.captureStream(FPS);
+  const recorder = new MediaRecorder(stream, { mimeType, videoBitsPerSecond: 8_000_000 });
+  const chunks: Blob[] = [];
+  const started = performance.now();
+  recorder.ondataavailable = (event) => { if (event.data.size > 0) chunks.push(event.data); };
+  recorder.onstop = () => {
+    stream.getTracks().forEach((track) => track.stop());
+    const url = URL.createObjectURL(new Blob(chunks, { type: mimeType }));
+    const anchor = document.createElement("a");
+    anchor.download = "SH03-10s-24fps.webm";
+    anchor.href = url;
+    anchor.click();
+    URL.revokeObjectURL(url);
+    if (exportStatus) exportStatus.textContent = "WebM video saved";
+  };
+  recorder.start();
+  if (exportStatus) exportStatus.textContent = "Recording 10s WebM…";
+  const captureTick = (now: number): void => {
+    const elapsed = (now - started) / 1000;
+    seek(Math.min(DURATION_SECONDS, elapsed));
+    if (elapsed >= DURATION_SECONDS) recorder.stop();
+    else requestAnimationFrame(captureTick);
+  };
+  requestAnimationFrame(captureTick);
 });
 
 function tick(now: number): void {
