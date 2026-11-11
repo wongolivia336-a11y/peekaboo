@@ -24,6 +24,10 @@
 | [文学研究与改编边界](docs/01-literary-research.md) | 原作线索、主旨解读、事实 / 想象区分 |
 | [视觉方向与风格判断](docs/02-art-direction.md) | A/B/C 风格探索、色板、反 AI slop 清单 |
 | [90 秒分镜 v0.1](docs/03-storyboard-v01.md) | 时间轴、镜头动作、视觉转折 |
+| [代码驱动动画技术决策](docs/05-animation-engineering-decision.md) | PixiJS / 2.5D vs Three.js，8–12 秒镜头架构 |
+| [Codex 直接执行交接](handoff/CODEX_PHASE1_2_5D.md) | 可运行原型、skill 检测、分层、导出与验证 |
+| [Codex 代理仓库规则](AGENTS.md) | 后续执行时优先阅读的艺术/工程约束 |
+| [EXP-002 代码驱动实验](production/experiments/EXP-002-code-driven-2-5d.md) | 实验假设、质量门槛与状态 |
 | [视觉参考](docs/04-references.md) | erainshu、手工动画、音乐与其他研究起点 |
 | [生图提示词 v0.1](prompts/image-v01.md) | 第一张风格帧探索 prompt |
 | [MiniMax 提示词 v0.1](prompts/minimax-v01.md) | 孔兆年抬头等镜头的生成约束 |
@@ -53,6 +57,12 @@ peekaboo/
 ```
 
 > GitHub 的普通仓库不是无限大的视频素材库。较大的 MP4/工程文件建议使用 Git LFS 或外部对象存储，同时在 `production/ASSETS.md` 登记哈希与路径。不要将未经授权的正式录音直接公开提交。
+
+## 2026-11-11 新路线：Code-driven 2.5D
+
+用户反馈 MiniMax 视频效果不理想；当下尚未提供实际生成文件，因此**未核验具体失真问题**。决定先用原始水粉 PNG 的分层与代码运动实现 8–12 秒 SH03 镜头。默认 PixiJS v8 / TypeScript，必要时才用 Three.js，不把现有画面无依据地重建成低多边形场景。详见 [技术决策](docs/05-animation-engineering-decision.md) 和 [Codex 交接](handoff/CODEX_PHASE1_2_5D.md)。
+
+**该阶段目前是文档及交接包，尚未出现可运行前端或动画导出。** 原图已在本次聊天中制作独立 ZIP 交接包，由 Codex 本地解压，仍需提交至 GitHub。
 
 ## 下一次回到本项目
 
