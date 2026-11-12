@@ -1,0 +1,456 @@
+{
+  "version": "climb-frame-animation-v3",
+  "frame_count": 40,
+  "playback_fps": 12,
+  "action_seconds": 3.3333333333333335,
+  "identity_reference": "assets/images/IMG-001-tree-hide-v01.png",
+  "sequence": [
+    "reach",
+    "grip",
+    "pull",
+    "raise-knee",
+    "hide-and-glance"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-001.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-001.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 1,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-002.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-002.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 2,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-003.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-003.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 3,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-004.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-004.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 4,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-005.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-005.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 5,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-006.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-006.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 6,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-007.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-007.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 7,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-008.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-008.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 8,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-009.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-009.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 9,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-010.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-010.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 10,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-011.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-011.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 11,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-012.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-012.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 12,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-013.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-013.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 13,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-014.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-014.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 14,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-015.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-015.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 15,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-016.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-016.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 16,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-017.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-017.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 17,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-018.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-018.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 18,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-019.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-019.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 19,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-020.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-020.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 20,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-021.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-021.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 21,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-022.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-022.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 22,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-023.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-023.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 23,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-024.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-024.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 24,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-025.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-025.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 25,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-026.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-026.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 26,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-027.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-027.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 27,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-028.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-028.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 28,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-029.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-029.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 29,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-030.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-030.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 30,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-031.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-031.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 31,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-032.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-032.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 32,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-033.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-033.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 33,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-034.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-034.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 34,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-035.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-035.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 35,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-036.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-036.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 36,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-037.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-037.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 37,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-038.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-038.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 38,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-039.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-039.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    },
+    {
+      "index": 39,
+      "source": "assets/concepts/characters/climb-frames-v2/frames/frame-040.png",
+      "frame": "assets/concepts/characters/climb-frames-v3/frames/frame-040.png",
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "preserved transparent full-body character cutout",
+      "grade": "muted canopy palette, softened contrast, fine paper grain"
+    }
+  ]
+}

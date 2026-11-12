@@ -1,51 +1,74 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PEEKABOO · SH03 / 2.5D study</title>
+    <meta name="theme-color" content="#24251f" />
+    <title>PEEKABOO · 还没有找到我</title>
   </head>
   <body>
-    <main id="app-shell">
-      <section class="stage-wrap" aria-label="SH03 animated frame">
-        <div id="stage-host"></div>
-        <div id="loading" class="loading">Loading original pixels…</div>
+    <main id="film-app">
+      <section class="screen" aria-label="动画预览">
+        <div class="screen-top"><span>PEEKABOO / NOT FOUND YET</span><span>4:3 · 24 FPS</span></div>
+        <div class="stage-wrap"><div id="stage-host"></div><div id="loading">正在载入原画与分层素材…</div></div>
+        <div class="screen-bottom"><span id="shot-caption">SH01 · 午后</span><span id="frame-readout">FRAME 0000 / 2160</span></div>
       </section>
-      <aside class="debug-panel" aria-label="Development controls">
-        <div class="eyebrow">PEEKABOO / SH03</div>
-        <h1>躲藏的幸福 <span>10s 2.5D study</span></h1>
-        <p class="dek">A quiet raster scene. The motion is local, named and deterministic.</p>
-        <div class="transport">
-          <button id="play" type="button">Play</button>
-          <button id="pause" type="button">Pause</button>
-          <button id="reset" type="button">Reset</button>
-          <output id="time-readout">00:00.00</output>
-        </div>
-        <label class="scrub-label" for="scrub">Timeline <span>0:00 — 0:10</span></label>
-        <input id="scrub" type="range" min="0" max="10" step="0.001" value="0" />
-        <div class="control-grid">
-          <label>Motion intensity <output id="intensity-readout">100%</output><input id="intensity" type="range" min="0" max="1.5" step="0.01" value="1" /></label>
-          <label>Layer view <select id="source-mode"><option value="separated">Separated composite</option><option value="original">Original source A/B</option></select></label>
-        </div>
-        <div class="layer-list">
-          <div class="layer-heading">Layer isolation</div>
-          <label><input data-layer="school" type="checkbox" checked /> <span>BG_10 school + ground</span></label>
-          <label><input data-layer="trunk" type="checkbox" checked /> <span>ENV_20 trunk / branches</span></label>
-          <label><input data-layer="foliageRear" type="checkbox" checked /> <span>ENV_30 rear foliage</span></label>
-          <label><input data-layer="boy" type="checkbox" checked /> <span>CHAR_40 boy</span></label>
-          <label><input data-layer="foliageFront" type="checkbox" checked /> <span>ENV_50 front foliage</span></label>
-          <label><input data-layer="shadow" type="checkbox" checked /> <span>FX_60 painted shadow pass</span></label>
-          <label><input id="show-masks" type="checkbox" /> <span>Show mask borders</span></label>
-        </div>
-        <div class="export-row">
-          <button id="export-frame" type="button">Export PNG frame</button>
-          <button id="export-video" type="button">Export 10s WebM</button>
-          <span id="export-status" role="status">24 fps / silent</span>
-        </div>
-        <footer>
-          Original: <code>IMG-001-tree-hide-v01.png</code><br />
-          No Three.js. No generated replacement art.
-        </footer>
+      <aside class="editor" aria-label="动画导演与时间轴控制">
+        <header class="project-heading">
+          <p class="eyebrow">SEVEN SHOT FILM STUDY</p>
+          <h1>还没有找到我</h1>
+          <p class="subhead">一个男孩躲起来，直到被看见这件事开始变得不确定。</p>
+        </header>
+        <section class="timeline-block">
+          <div class="section-head"><span>全片时间轴</span><output id="time-readout">00:00.00</output></div>
+          <div id="shot-track" class="shot-track" aria-label="七镜头时间轴"></div>
+          <input id="scrub" type="range" min="0" max="2159" step="1" value="0" aria-label="逐帧拖动" />
+          <div class="range-ends"><span>00:00</span><span>01:30</span></div>
+          <div class="transport">
+            <button id="previous-frame" class="icon-button" type="button" aria-label="上一帧">−1f</button>
+            <button id="play" class="primary-button" type="button">播放</button>
+            <button id="pause" type="button">暂停</button>
+            <button id="next-frame" class="icon-button" type="button" aria-label="下一帧">+1f</button>
+            <button id="reset" class="quiet-button" type="button">回到开头</button>
+          </div>
+          <div class="shot-readout"><span id="active-shot">SH01 · 午后</span><span id="shot-clock">00:00.00 / 00:10.00</span></div>
+        </section>
+        <section class="performance-block">
+          <div class="section-head"><span>当前镜头演出</span><span id="shot-status" class="status-chip">LAYERED ANIMATIC</span></div>
+          <p id="motion-note" class="motion-note"></p>
+          <label class="range-control">动作幅度 <output id="intensity-readout">100%</output>
+            <input id="intensity" type="range" min="0" max="1.5" step="0.01" value="1" />
+          </label>
+        </section>
+        <section class="inspect-block">
+          <div class="section-head"><span>合成检查</span></div>
+          <label class="select-control">画面
+            <select id="source-mode"><option value="separated">分层合成</option><option value="original">原图 A / B</option></select>
+          </label>
+          <div class="toggle-row">
+            <label><input id="layer-background" type="checkbox" checked />背景板</label>
+            <label><input id="layer-characters" type="checkbox" checked />角色层</label>
+            <label><input id="show-masks" type="checkbox" />显示遮罩</label>
+          </div>
+          <div id="layer-name" class="layer-name">当前素材：SH01 原画 + 4 个远景跑动角色</div>
+        </section>
+        <section class="sound-block">
+          <div class="section-head"><span>配乐轨</span><span class="muted">默认静音</span></div>
+          <label class="file-button" for="audio-file">载入本地音频 <span id="audio-name">未载入</span></label>
+          <input id="audio-file" type="file" accept="audio/*" />
+          <p>可导入本地 Swallow《Peekaboo》音频；仓库不包含录音。</p>
+          <a class="music-store-link" href="https://swallowuk.bandcamp.com/track/peekaboo-2026-remaster" target="_blank" rel="noopener noreferrer">官方购买 / 下载《Peekaboo》↗</a>
+          <p>购买后下载 MP3 或 FLAC，再从上方导入即可随片播放。</p>
+        </section>
+        <section class="export-block">
+          <div class="section-head"><span>渲染</span><span class="muted">1448 × 1086</span></div>
+          <div class="export-actions">
+            <button id="export-frame" type="button">导出当前帧 PNG</button>
+            <button id="export-video" class="primary-button" type="button">录制 90 秒 WebM</button>
+          </div>
+          <div id="export-status" role="status">确定性帧定位 · 2160 帧 · 24 fps</div>
+        </section>
+        <footer>IMG-001 原画保留 · PixiJS 2D 合成 · 可复现逐帧渲染<br />镜头完成状态详见时间轴与 production/shotlist-v1.json</footer>
       </aside>
     </main>
     <script src="/vendor/pixi.min.js"></script>

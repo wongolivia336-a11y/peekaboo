@@ -1,84 +1,61 @@
 {
   "project": "PEEKABOO / NOT FOUND YET",
-  "version": "storyboard-v1",
+  "version": "storyboard-v1-animated-cut-v4",
   "fps": 24,
-  "canvas": {
-    "width": 1448,
-    "height": 1086,
-    "aspect": "4:3"
-  },
+  "transition_frames": 13,
+  "canvas": { "width": 1448, "height": 1086, "aspect": "4:3" },
   "duration_frames": 2160,
   "duration_seconds": 90,
   "soundtrack": {
-    "status": "reference-only; no licensed audio embedded",
+    "status": "reference-only; local user audio import supported; no recording embedded",
     "artist": "Swallow",
     "track": "Peekaboo"
   },
   "visual_master": "assets/images/IMG-001-tree-hide-v01.png",
-  "image_prompt_source": "prompts/seven-shots-image-prompts-v1.md",
+  "provided_keyframes": "assets/frames/SH01-v01.png ... SH07-v01.png (original bytes, SHA-256 in production/ASSETS.md)",
   "shots": [
     {
-      "id": "SH01",
-      "title_zh": "午后",
-      "start_frame": 0,
-      "duration_frames": 240,
-      "keyframe": "assets/frames/SH01-v01.png",
-      "status": "not-yet-provided",
-      "animation": "static courtyard; distant running children; 1-2 leaf groups move"
+      "id": "SH01", "title_zh": "午后", "start_frame": 0, "duration_frames": 240,
+      "end_frame_exclusive": 240, "keyframe": "assets/frames/SH01-v01.png",
+      "status": "layered-animatic", "layers": ["painted courtyard", "four intact source-pixel runner cutouts", "bounded inferred plate"],
+      "animation": "Four intact source-pixel runners drift a few pixels along the painted path with a restrained body bounce while the camera tracks toward the tree."
     },
     {
-      "id": "SH02",
-      "title_zh": "躲藏",
-      "start_frame": 240,
-      "duration_frames": 240,
-      "keyframe": "assets/frames/SH02-v01.png",
-      "status": "not-yet-provided",
-      "animation": "boy climbs tree with articulated poses; counting child"
+      "id": "SH02", "title_zh": "躲藏", "start_frame": 240, "duration_frames": 240,
+      "end_frame_exclusive": 480, "keyframe": "assets/frames/SH02-v01.png",
+      "status": "layered-animatic", "layers": ["painted courtyard", "40 transparent full-body climber drawings at 12 fps", "intact source-pixel runner cutout", "expanded bounded inferred plate"],
+      "animation": "Forty full-body drawings play in sequence as the boy climbs from the tree base onto the branch, then settles into hiding; the final pose holds while the nearer runner glides through the passage."
     },
     {
-      "id": "SH03",
-      "title_zh": "树上",
-      "start_frame": 480,
-      "duration_frames": 288,
-      "keyframe": "assets/images/IMG-001-tree-hide-v01.png",
-      "status": "reference image provided in chat; GitHub binary not yet confirmed",
-      "animation": "subtle independent leaf clusters; possible candy wrapper; boy mostly still"
+      "id": "SH03", "title_zh": "树上", "start_frame": 480, "duration_frames": 288,
+      "end_frame_exclusive": 768, "keyframe": "assets/images/IMG-001-tree-hide-v01.png",
+      "supplemental_frame": "assets/frames/SH03-v01.png",
+      "status": "2.5d-proof-of-concept", "layers": ["static underlay", "three foliage owners", "boy matte", "painted shadow"],
+      "animation": "Three leaf planes sway on offset wind cycles as the camera eases toward the boy; the tree character reuses SH02's final fully drawn pose to preserve identity across the cut. The supplemental close-up remains archived and is not substituted for IMG-001."
     },
     {
-      "id": "SH04",
-      "title_zh": "抬头",
-      "start_frame": 768,
-      "duration_frames": 336,
-      "keyframe": "assets/frames/SH04-v01.png",
-      "status": "not-yet-provided",
-      "animation": "Kong enters, stops and raises head, gaze unresponsive"
+      "id": "SH04", "title_zh": "抬头", "start_frame": 768, "duration_frames": 336,
+      "end_frame_exclusive": 1104, "keyframe": "assets/frames/SH04-v01.png",
+      "status": "layered-animatic", "layers": ["painted courtyard", "16 transparent redrawn ground-searcher poses", "bounded inferred plate"],
+      "animation": "A slow camera push finds the redrawn boy; he looks up, shades his eyes, scans the canopy, and takes a few cautious steps before holding."
     },
     {
-      "id": "SH05",
-      "title_zh": "视而不见",
-      "start_frame": 1104,
-      "duration_frames": 384,
-      "keyframe": "assets/frames/SH05-v01.png",
-      "status": "not-yet-provided",
-      "animation": "boy leans forward, tiny shadow misregistration; friend not reacting"
+      "id": "SH05", "title_zh": "视而不见", "start_frame": 1104, "duration_frames": 384,
+      "end_frame_exclusive": 1488, "keyframe": "assets/frames/SH05-v01.png",
+      "status": "layered-animatic", "layers": ["painted tree/courtyard", "near observer head/body", "16 transparent redrawn distant-boy poses", "bounded inferred plate"],
+      "animation": "Foreground and distant figures drift in opposite directions with visible parallax as the camera searches; the distant boy scans the tree, shifts his stance, and settles."
     },
     {
-      "id": "SH06",
-      "title_zh": "离身",
-      "start_frame": 1488,
-      "duration_frames": 360,
-      "keyframe": "assets/frames/SH06-v01.png",
-      "status": "not-yet-provided",
-      "animation": "viewpoint separates through layered parallax; one boy only"
+      "id": "SH06", "title_zh": "离身", "start_frame": 1488, "duration_frames": 360,
+      "end_frame_exclusive": 1848, "keyframe": "assets/frames/SH06-v01.png",
+      "status": "layered-animatic", "layers": ["painted near bough", "tree boy cutout", "painted courtyard plate"],
+      "animation": "A deliberate dolly-in leaves the near bough and finds the seated boy; only a small branch-driven sway remains. No duplicate or ghost body."
     },
     {
-      "id": "SH07",
-      "title_zh": "无人寻找",
-      "start_frame": 1848,
-      "duration_frames": 312,
-      "keyframe": "assets/frames/SH07-v01.png",
-      "status": "not-yet-provided",
-      "animation": "very wide stillness, tiny boy in tree, fade motion, cut black"
+      "id": "SH07", "title_zh": "无人寻找", "start_frame": 1848, "duration_frames": 312,
+      "end_frame_exclusive": 2160, "keyframe": "assets/frames/SH07-v01.png",
+      "status": "layered-animatic", "layers": ["empty user-provided courtyard", "canonical IMG-001 boy cutout", "final cut to black"],
+      "animation": "Return to the empty courtyard, then slowly push toward the easy-to-miss boy in the canopy; hold on him and fade to black."
     }
   ]
 }

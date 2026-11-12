@@ -5,6 +5,12 @@
   "type": "module",
   "scripts": {
     "assets": "python scripts/build-assets.py",
+    "assets:film-v2": "python scripts/build-separated-film-v2.py",
+    "assets:climb-frames-v2": "python scripts/extract-climb-frames-v2.py",
+    "assets:climb-frames-v3": "python scripts/style-match-climb-frames-v3.py",
+    "assets:searcher-frames-v1": "python scripts/extract-searcher-frames-v1.py",
+    "export:climb-preview": "python scripts/render-climb-preview-v3.py",
+    "export:searcher-preview": "python scripts/render-searcher-preview-v1.py",
     "dev": "node .deps/node_modules/vite/bin/vite.js --host 127.0.0.1",
     "build": "node .deps/node_modules/typescript/lib/tsc.js --noEmit && node .deps/node_modules/vite/bin/vite.js build",
     "typecheck": "node .deps/node_modules/typescript/lib/tsc.js --noEmit",

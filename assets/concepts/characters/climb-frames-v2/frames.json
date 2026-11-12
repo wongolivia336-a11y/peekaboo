@@ -1,0 +1,575 @@
+{
+  "version": "climb-frame-animation-v2",
+  "frame_count": 40,
+  "playback_fps": 12,
+  "action_seconds": 3.3333333333333335,
+  "sequence": [
+    "reach",
+    "grip",
+    "pull",
+    "raise-knee",
+    "hide-and-glance"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-001.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-01.png",
+      "cell": [
+        0,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 1,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-002.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-01.png",
+      "cell": [
+        1,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 2,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-003.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-01.png",
+      "cell": [
+        2,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 3,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-004.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-01.png",
+      "cell": [
+        3,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 4,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-005.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-01.png",
+      "cell": [
+        0,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 5,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-006.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-01.png",
+      "cell": [
+        1,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 6,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-007.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-01.png",
+      "cell": [
+        2,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 7,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-008.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-01.png",
+      "cell": [
+        3,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 8,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-009.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-02.png",
+      "cell": [
+        0,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 9,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-010.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-02.png",
+      "cell": [
+        1,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 10,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-011.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-02.png",
+      "cell": [
+        2,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 11,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-012.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-02.png",
+      "cell": [
+        3,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 12,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-013.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-02.png",
+      "cell": [
+        0,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 13,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-014.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-02.png",
+      "cell": [
+        1,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 14,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-015.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-02.png",
+      "cell": [
+        2,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 15,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-016.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-02.png",
+      "cell": [
+        3,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 16,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-017.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-03.png",
+      "cell": [
+        0,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 17,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-018.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-03.png",
+      "cell": [
+        1,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 18,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-019.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-03.png",
+      "cell": [
+        2,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 19,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-020.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-03.png",
+      "cell": [
+        3,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 20,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-021.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-03.png",
+      "cell": [
+        0,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 21,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-022.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-03.png",
+      "cell": [
+        1,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 22,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-023.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-03.png",
+      "cell": [
+        2,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 23,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-024.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-03.png",
+      "cell": [
+        3,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 24,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-025.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-04.png",
+      "cell": [
+        0,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 25,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-026.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-04.png",
+      "cell": [
+        1,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 26,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-027.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-04.png",
+      "cell": [
+        2,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 27,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-028.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-04.png",
+      "cell": [
+        3,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 28,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-029.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-04.png",
+      "cell": [
+        0,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 29,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-030.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-04.png",
+      "cell": [
+        1,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 30,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-031.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-04.png",
+      "cell": [
+        2,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 31,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-032.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-04.png",
+      "cell": [
+        3,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 32,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-033.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-05.png",
+      "cell": [
+        0,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 33,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-034.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-05.png",
+      "cell": [
+        1,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 34,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-035.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-05.png",
+      "cell": [
+        2,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 35,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-036.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-05.png",
+      "cell": [
+        3,
+        0
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 36,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-037.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-05.png",
+      "cell": [
+        0,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 37,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-038.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-05.png",
+      "cell": [
+        1,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 38,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-039.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-05.png",
+      "cell": [
+        2,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    },
+    {
+      "index": 39,
+      "frame": "assets/concepts/characters/climb-frames-v2/frames/frame-040.png",
+      "sheet": "assets/concepts/characters/climb-frames-v2/pose-sheet-05.png",
+      "cell": [
+        3,
+        1
+      ],
+      "canvas": [
+        448,
+        448
+      ],
+      "alpha": "green-screen keyed with antialiased edge decontamination"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-export const DURATION_SECONDS = 10;
+export const DURATION_SECONDS = 12;
 export const FPS = 24;
 
 const clamp01 = (value: number): number => Math.min(1, Math.max(0, value));
@@ -15,7 +15,7 @@ export function easeInOut(value: number): number {
 
 export function fadeEnvelope(time: number): number {
   const fadeIn = smoothstep(0, 1.4, time);
-  const fadeOut = 1 - smoothstep(8.1, 10, time);
+  const fadeOut = 1 - smoothstep(9.8, 12, time);
   return Math.min(fadeIn, fadeOut);
 }
 

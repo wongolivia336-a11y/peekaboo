@@ -60,10 +60,10 @@ function outlineFor(bbox: readonly [number, number, number, number]): Graphics {
     .stroke({ color: 0xe7c98e, width: 2, alpha: 0.7 });
 }
 
-export async function createPeekabooScene(): Promise<SceneRefs> {
+export async function createPeekabooScene(replacementBoyTexture?: Texture): Promise<SceneRefs> {
   const assetSources = {
     source: "/assets/images/IMG-001-tree-hide-v01.png",
-    underlay: "/assets/layers/static-underlay.png",
+    underlay: "/assets/layers/film-v2/SH03/plate-clean-v2.png",
     leafLeft: "/assets/layers/foliage-left.png",
     leafMiddle: "/assets/layers/foliage-middle.png",
     leafFront: "/assets/layers/foliage-front.png",
@@ -118,9 +118,17 @@ export async function createPeekabooScene(): Promise<SceneRefs> {
     return mask;
   };
 
-  const boySprite = new Sprite(loaded.source);
-  boySprite.label = "CHAR_40_boy_sprite";
-  boySprite.mask = maskSprite(loaded.maskBoy, "mask_boy_observed");
+  const boySprite = new Sprite(replacementBoyTexture ?? loaded.source);
+  boySprite.label = replacementBoyTexture ? "CHAR_40_boy_shared_climb_pose" : "CHAR_40_boy_sprite";
+  if (replacementBoyTexture) {
+    // Reuse the final, fully drawn SH02 pose in SH03 so the child does not
+    // change design at the cut. The source scene remains the original fallback.
+    boySprite.anchor.set(0.5, 1);
+    boySprite.scale.set(0.78);
+    boySprite.position.set(1015, 440);
+  } else {
+    boySprite.mask = maskSprite(loaded.maskBoy, "mask_boy_observed");
+  }
   boy.addChild(boySprite);
 
   const shadowSprite = new Sprite(loaded.shadow);
@@ -148,11 +156,12 @@ export async function createPeekabooScene(): Promise<SceneRefs> {
     leafOwners.push({ mesh, outline, bbox, phase, frequency, yaw, lift });
   };
 
-  addLeaf(foliageRear, loaded.leafLeft, [218, 34, 365, 392], 0.4, 0.82, 0.0022, 1.1);
-  addLeaf(foliageRear, loaded.leafMiddle, [468, 272, 380, 382], 2.2, 0.67, 0.0016, 0.86);
-  addLeaf(foliageFront, loaded.leafFront, [794, 0, 654, 390], 4.8, 0.53, 0.0011, 0.62);
+  addLeaf(foliageRear, loaded.leafLeft, [218, 34, 365, 392], 0.4, 0.82, 0.014, 1.1);
+  addLeaf(foliageRear, loaded.leafMiddle, [468, 272, 380, 382], 2.2, 0.67, 0.011, 0.86);
+  addLeaf(foliageFront, loaded.leafFront, [794, 0, 654, 390], 4.8, 0.53, 0.008, 0.62);
 
   let settings: SceneSettings = { intensity: 1, sourceMode: "separated", showMasks: false };
+  let currentTime = 0;
 
   const applyMaskDebug = (): void => {
     for (const leaf of leafOwners) leaf.outline.visible = settings.showMasks;
@@ -160,6 +169,7 @@ export async function createPeekabooScene(): Promise<SceneRefs> {
 
   const renderAtTime = (rawTime: number): void => {
     const time = Math.max(0, Math.min(DURATION_SECONDS, rawTime));
+    currentTime = time;
     const gain = settings.intensity;
     source.visible = settings.sourceMode === "original";
     school.visible = settings.sourceMode === "separated";
@@ -173,20 +183,20 @@ export async function createPeekabooScene(): Promise<SceneRefs> {
       const signal = windSignal(time, leaf.phase, leaf.frequency) * gain;
       const [x, y, width, height] = leaf.bbox;
       leaf.mesh.position.set(
-        x + width / 2 + signal * 3.4,
-        y + height / 2 + signal * leaf.lift,
+        x + width / 2 + signal * 9,
+        y + height / 2 + signal * leaf.lift * 5.5,
       );
       leaf.mesh.rotation = signal * leaf.yaw;
-      leaf.mesh.scale.set(1 + signal * 0.003, 1 - signal * 0.002);
-      leaf.outline.position.set(signal * 3.4, signal * leaf.lift);
+      leaf.mesh.scale.set(1 + signal * 0.012, 1 - signal * 0.008);
+      leaf.outline.position.set(signal * 9, signal * leaf.lift * 5.5);
       leaf.outline.rotation = signal * leaf.yaw;
     }
 
     // The hand is deliberately still; the only acting is the wind and a
     // restrained painted shadow drift. The source has no clean eye layer.
-    shadowSprite.x = Math.sin(time * 0.31 - 0.7) * 2.4 * gain;
-    shadowSprite.y = Math.sin(time * 0.21 + 0.4) * 1.2 * gain;
-    shadowSprite.alpha = 0.055 * Math.max(0, gain) * Math.abs(windSignal(time, 1.3, 0.44));
+    shadowSprite.x = Math.sin(time * 0.31 - 0.7) * 4.2 * gain;
+    shadowSprite.y = Math.sin(time * 0.21 + 0.4) * 2.4 * gain;
+    shadowSprite.alpha = 0.09 * Math.max(0, gain) * Math.abs(windSignal(time, 1.3, 0.44));
     applyMaskDebug();
   };
 
@@ -200,7 +210,7 @@ export async function createPeekabooScene(): Promise<SceneRefs> {
     layers,
     renderAtTime,
     setLayerVisible: (layer, visible) => { layers[layer].visible = visible; },
-    setSettings: (partial) => { settings = { ...settings, ...partial }; renderAtTime(0); },
+    setSettings: (partial) => { settings = { ...settings, ...partial }; renderAtTime(currentTime); },
     getSettings: () => ({ ...settings }),
     destroy: () => {
       root.destroy({ children: true });

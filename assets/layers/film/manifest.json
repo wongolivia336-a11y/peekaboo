@@ -1,0 +1,320 @@
+{
+  "canvas": {
+    "width": 1448,
+    "height": 1086
+  },
+  "method": "manual source-coordinate mattes, 3x supersampling, alpha-only cutouts",
+  "plate_fill": "Gaussian low-frequency continuation, radius 7px under a 7px expanded matte; inferred and reversible",
+  "shots": {
+    "SH01": {
+      "source": "assets/frames/SH01-v01.png",
+      "sha256": "e312036b12d575fa045e6d070a54c433226cd90cd5760660571da68d51501f3d",
+      "layers": {
+        "runner-01": {
+          "bbox": [
+            1019,
+            773,
+            43,
+            51
+          ],
+          "role": "CHAR_20_distant_runner",
+          "provenance": "hand-traced from user-provided SH01 pixels"
+        },
+        "runner-02": {
+          "bbox": [
+            1048,
+            776,
+            39,
+            52
+          ],
+          "role": "CHAR_20_distant_runner",
+          "provenance": "hand-traced from user-provided SH01 pixels"
+        },
+        "runner-03": {
+          "bbox": [
+            1089,
+            773,
+            39,
+            49
+          ],
+          "role": "CHAR_20_distant_runner",
+          "provenance": "hand-traced from user-provided SH01 pixels"
+        },
+        "runner-04": {
+          "bbox": [
+            1129,
+            771,
+            41,
+            51
+          ],
+          "role": "CHAR_20_distant_runner",
+          "provenance": "hand-traced from user-provided SH01 pixels"
+        }
+      },
+      "plate": "assets/layers/film/SH01/plate-inferred.png",
+      "retouch_note": "Only pixels beneath the named movable matte are inferred; original PNG remains intact."
+    },
+    "SH02": {
+      "source": "assets/frames/SH02-v01.png",
+      "sha256": "b27024f4b2d18163f1c789796b0d8669759bdf761d6d02319017cda2768bb56f",
+      "layers": {
+        "runner-head": {
+          "bbox": [
+            469,
+            669,
+            53,
+            52
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "runner-body": {
+          "bbox": [
+            433,
+            700,
+            78,
+            113
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "runner-arm-back": {
+          "bbox": [
+            415,
+            711,
+            65,
+            57
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "runner-arm-front": {
+          "bbox": [
+            484,
+            713,
+            47,
+            67
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "runner-leg-back": {
+          "bbox": [
+            414,
+            780,
+            57,
+            66
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "runner-leg-front": {
+          "bbox": [
+            471,
+            780,
+            52,
+            81
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "climber-head": {
+          "bbox": [
+            908,
+            472,
+            89,
+            86
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "climber-arm-high": {
+          "bbox": [
+            980,
+            398,
+            79,
+            142
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "climber-shirt": {
+          "bbox": [
+            908,
+            526,
+            151,
+            161
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "climber-arm-reach": {
+          "bbox": [
+            973,
+            535,
+            153,
+            90
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "climber-shorts": {
+          "bbox": [
+            925,
+            655,
+            89,
+            91
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "climber-leg-ground": {
+          "bbox": [
+            876,
+            706,
+            85,
+            230
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "climber-shoe-ground": {
+          "bbox": [
+            872,
+            909,
+            81,
+            62
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "climber-leg-lifted": {
+          "bbox": [
+            964,
+            675,
+            77,
+            126
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "climber-shoe-lifted": {
+          "bbox": [
+            995,
+            753,
+            101,
+            55
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        }
+      },
+      "plate": "assets/layers/film/SH02/plate-inferred.png",
+      "retouch_note": "Only pixels beneath the named movable matte are inferred; original PNG remains intact."
+    },
+    "SH04": {
+      "source": "assets/frames/SH04-v01.png",
+      "sha256": "214e7e419954681379b64762b5eab679e957876b55c05300fbbc06e8b57e3219",
+      "layers": {
+        "kong-head": {
+          "bbox": [
+            818,
+            373,
+            102,
+            103
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "kong-body": {
+          "bbox": [
+            789,
+            456,
+            178,
+            234
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "kong-legs": {
+          "bbox": [
+            816,
+            663,
+            127,
+            161
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        }
+      },
+      "plate": "assets/layers/film/SH04/plate-inferred.png",
+      "retouch_note": "Only pixels beneath the named movable matte are inferred; original PNG remains intact."
+    },
+    "SH05": {
+      "source": "assets/frames/SH05-v01.png",
+      "sha256": "ab06197f950e57d0ffbec39a6ced5ad184ca6d2d98d21520ba10d4a8a175843b",
+      "layers": {
+        "small-head": {
+          "bbox": [
+            1068,
+            400,
+            89,
+            86
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "small-body": {
+          "bbox": [
+            1028,
+            467,
+            131,
+            213
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "observer-head": {
+          "bbox": [
+            318,
+            28,
+            404,
+            364
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        },
+        "observer-body": {
+          "bbox": [
+            117,
+            318,
+            747,
+            648
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        }
+      },
+      "plate": "assets/layers/film/SH05/plate-inferred.png",
+      "retouch_note": "Only pixels beneath the named movable matte are inferred; original PNG remains intact."
+    },
+    "SH06": {
+      "source": "assets/frames/SH06-v01.png",
+      "sha256": "7d02ed5894bc0327497d833cc33532dd1c08c9336d67b01fa631d2e861d6258c",
+      "layers": {
+        "tree-boy": {
+          "bbox": [
+            1045,
+            291,
+            111,
+            105
+          ],
+          "role": "CHAR_30_source_cutout",
+          "provenance": "hand-traced from user-provided frame; RGB unchanged"
+        }
+      },
+      "plate": "assets/layers/film/SH06/plate-inferred.png",
+      "retouch_note": "Only pixels beneath the named movable matte are inferred; original PNG remains intact."
+    }
+  }
+}

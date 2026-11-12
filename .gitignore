@@ -4,9 +4,13 @@ dist/
 .deps/
 _handoff_import_*/
 .img2threejs/
+.agents/skills/
+.agents/skills/**
 .edge-capture*/
 .edge-*/
+edits/audit/
 edits/evidence/.edge-capture*/
+edits/evidence/browser-preview/
 edits/exports/SH03/.edge-capture*/
 edits/evidence/SH03-final-check.png
 edits/exports/SH03/*.mp4

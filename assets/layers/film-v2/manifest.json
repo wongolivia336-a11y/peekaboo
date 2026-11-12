@@ -1,0 +1,268 @@
+{
+  "version": "film-v2-separated-assets",
+  "canvas": {
+    "width": 1448,
+    "height": 1086
+  },
+  "background_method": "generated clean plate composited only under a dilated, feathered movement matte; source pixels preserved outside repair mask",
+  "mask_expansion_px": {
+    "SH01": 15,
+    "SH02": 98,
+    "SH03": 15,
+    "SH04": 15,
+    "SH05": 15,
+    "SH06": 15
+  },
+  "character_method": "source frame RGB with unions of hand-traced alpha mattes for whole-body sprites; SH02 also uses complete transparent pose illustrations",
+  "shots": {
+    "SH01": {
+      "source": "assets/frames/SH01-v01.png",
+      "background_plate": "assets/layers/film-v2/SH01/plate-clean-v2.png",
+      "generated_background_source": "assets/layers/film-v2/generated-plates/SH01.png",
+      "transparent_fullframe_characters": "assets/layers/film-v2/SH01/characters-fullframe-v2.png",
+      "union_matte": "assets/masks/film-v2/SH01/characters-union.png",
+      "character_parts": {
+        "runner-01": "assets/layers/film-v2/SH01/parts/runner-01.png",
+        "runner-02": "assets/layers/film-v2/SH01/parts/runner-02.png",
+        "runner-03": "assets/layers/film-v2/SH01/parts/runner-03.png",
+        "runner-04": "assets/layers/film-v2/SH01/parts/runner-04.png"
+      },
+      "actors": {
+        "runner-01": {
+          "image": "assets/layers/film-v2/SH01/actors/runner-01.png",
+          "alpha": "assets/masks/film-v2/SH01/actors/runner-01.png",
+          "bbox": [
+            1022,
+            776,
+            37,
+            45
+          ],
+          "source_parts": [
+            "runner-01"
+          ]
+        },
+        "runner-02": {
+          "image": "assets/layers/film-v2/SH01/actors/runner-02.png",
+          "alpha": "assets/masks/film-v2/SH01/actors/runner-02.png",
+          "bbox": [
+            1051,
+            779,
+            33,
+            46
+          ],
+          "source_parts": [
+            "runner-02"
+          ]
+        },
+        "runner-03": {
+          "image": "assets/layers/film-v2/SH01/actors/runner-03.png",
+          "alpha": "assets/masks/film-v2/SH01/actors/runner-03.png",
+          "bbox": [
+            1092,
+            776,
+            33,
+            43
+          ],
+          "source_parts": [
+            "runner-03"
+          ]
+        },
+        "runner-04": {
+          "image": "assets/layers/film-v2/SH01/actors/runner-04.png",
+          "alpha": "assets/masks/film-v2/SH01/actors/runner-04.png",
+          "bbox": [
+            1132,
+            774,
+            35,
+            45
+          ],
+          "source_parts": [
+            "runner-04"
+          ]
+        }
+      },
+      "status": "clean-background-v2"
+    },
+    "SH02": {
+      "source": "assets/frames/SH02-v01.png",
+      "background_plate": "assets/layers/film-v2/SH02/plate-clean-v2.png",
+      "generated_background_source": "assets/layers/film-v2/generated-plates/SH02.png",
+      "transparent_fullframe_characters": "assets/layers/film-v2/SH02/characters-fullframe-v2.png",
+      "union_matte": "assets/masks/film-v2/SH02/characters-union.png",
+      "character_parts": {
+        "climber-arm-high": "assets/layers/film-v2/SH02/parts/climber-arm-high.png",
+        "climber-arm-reach": "assets/layers/film-v2/SH02/parts/climber-arm-reach.png",
+        "climber-head": "assets/layers/film-v2/SH02/parts/climber-head.png",
+        "climber-leg-ground": "assets/layers/film-v2/SH02/parts/climber-leg-ground.png",
+        "climber-leg-lifted": "assets/layers/film-v2/SH02/parts/climber-leg-lifted.png",
+        "climber-shirt": "assets/layers/film-v2/SH02/parts/climber-shirt.png",
+        "climber-shoe-ground": "assets/layers/film-v2/SH02/parts/climber-shoe-ground.png",
+        "climber-shoe-lifted": "assets/layers/film-v2/SH02/parts/climber-shoe-lifted.png",
+        "climber-shorts": "assets/layers/film-v2/SH02/parts/climber-shorts.png",
+        "runner-arm-back": "assets/layers/film-v2/SH02/parts/runner-arm-back.png",
+        "runner-arm-front": "assets/layers/film-v2/SH02/parts/runner-arm-front.png",
+        "runner-body": "assets/layers/film-v2/SH02/parts/runner-body.png",
+        "runner-head": "assets/layers/film-v2/SH02/parts/runner-head.png",
+        "runner-leg-back": "assets/layers/film-v2/SH02/parts/runner-leg-back.png",
+        "runner-leg-front": "assets/layers/film-v2/SH02/parts/runner-leg-front.png"
+      },
+      "actors": {
+        "climber": {
+          "image": "assets/layers/film-v2/SH02/actors/climber.png",
+          "alpha": "assets/masks/film-v2/SH02/actors/climber.png",
+          "bbox": [
+            875,
+            401,
+            248,
+            567
+          ],
+          "source_parts": [
+            "climber-arm-high",
+            "climber-arm-reach",
+            "climber-head",
+            "climber-leg-ground",
+            "climber-leg-lifted",
+            "climber-shirt",
+            "climber-shoe-ground",
+            "climber-shoe-lifted",
+            "climber-shorts"
+          ]
+        },
+        "runner": {
+          "image": "assets/layers/film-v2/SH02/actors/runner.png",
+          "alpha": "assets/masks/film-v2/SH02/actors/runner.png",
+          "bbox": [
+            417,
+            672,
+            111,
+            186
+          ],
+          "source_parts": [
+            "runner-arm-back",
+            "runner-arm-front",
+            "runner-body",
+            "runner-head",
+            "runner-leg-back",
+            "runner-leg-front"
+          ]
+        }
+      },
+      "status": "clean-background-v2"
+    },
+    "SH03": {
+      "source": "assets/images/IMG-001-tree-hide-v01.png",
+      "background_plate": "assets/layers/film-v2/SH03/plate-clean-v2.png",
+      "generated_background_source": "assets/layers/film-v2/generated-plates/SH03.png",
+      "transparent_fullframe_characters": "assets/layers/film-v2/SH03/characters-fullframe-v2.png",
+      "union_matte": "assets/masks/film-v2/SH03/characters-union.png",
+      "character_parts": {
+        "boy": "assets/layers/film-v2/SH03/parts/boy.png",
+        "foliage-left": "assets/layers/film-v2/SH03/parts/foliage-left.png",
+        "foliage-middle": "assets/layers/film-v2/SH03/parts/foliage-middle.png",
+        "foliage-front": "assets/layers/film-v2/SH03/parts/foliage-front.png"
+      },
+      "actors": {},
+      "status": "clean-background-v2"
+    },
+    "SH04": {
+      "source": "assets/frames/SH04-v01.png",
+      "background_plate": "assets/layers/film-v2/SH04/plate-clean-v2.png",
+      "generated_background_source": "assets/layers/film-v2/generated-plates/SH04.png",
+      "transparent_fullframe_characters": "assets/layers/film-v2/SH04/characters-fullframe-v2.png",
+      "union_matte": "assets/masks/film-v2/SH04/characters-union.png",
+      "character_parts": {
+        "kong-body": "assets/layers/film-v2/SH04/parts/kong-body.png",
+        "kong-head": "assets/layers/film-v2/SH04/parts/kong-head.png",
+        "kong-legs": "assets/layers/film-v2/SH04/parts/kong-legs.png"
+      },
+      "actors": {
+        "kong": {
+          "image": "assets/layers/film-v2/SH04/actors/kong.png",
+          "alpha": "assets/masks/film-v2/SH04/actors/kong.png",
+          "bbox": [
+            792,
+            376,
+            172,
+            445
+          ],
+          "source_parts": [
+            "kong-body",
+            "kong-head",
+            "kong-legs"
+          ]
+        }
+      },
+      "status": "clean-background-v2"
+    },
+    "SH05": {
+      "source": "assets/frames/SH05-v01.png",
+      "background_plate": "assets/layers/film-v2/SH05/plate-clean-v2.png",
+      "generated_background_source": "assets/layers/film-v2/generated-plates/SH05.png",
+      "transparent_fullframe_characters": "assets/layers/film-v2/SH05/characters-fullframe-v2.png",
+      "union_matte": "assets/masks/film-v2/SH05/characters-union.png",
+      "character_parts": {
+        "observer-body": "assets/layers/film-v2/SH05/parts/observer-body.png",
+        "observer-head": "assets/layers/film-v2/SH05/parts/observer-head.png",
+        "small-body": "assets/layers/film-v2/SH05/parts/small-body.png",
+        "small-head": "assets/layers/film-v2/SH05/parts/small-head.png"
+      },
+      "actors": {
+        "observer": {
+          "image": "assets/layers/film-v2/SH05/actors/observer.png",
+          "alpha": "assets/masks/film-v2/SH05/actors/observer.png",
+          "bbox": [
+            120,
+            31,
+            741,
+            932
+          ],
+          "source_parts": [
+            "observer-body",
+            "observer-head"
+          ]
+        },
+        "small-boy": {
+          "image": "assets/layers/film-v2/SH05/actors/small-boy.png",
+          "alpha": "assets/masks/film-v2/SH05/actors/small-boy.png",
+          "bbox": [
+            1031,
+            403,
+            125,
+            274
+          ],
+          "source_parts": [
+            "small-body",
+            "small-head"
+          ]
+        }
+      },
+      "status": "clean-background-v2"
+    },
+    "SH06": {
+      "source": "assets/frames/SH06-v01.png",
+      "background_plate": "assets/layers/film-v2/SH06/plate-clean-v2.png",
+      "generated_background_source": "assets/layers/film-v2/generated-plates/SH06.png",
+      "transparent_fullframe_characters": "assets/layers/film-v2/SH06/characters-fullframe-v2.png",
+      "union_matte": "assets/masks/film-v2/SH06/characters-union.png",
+      "character_parts": {
+        "tree-boy": "assets/layers/film-v2/SH06/parts/tree-boy.png"
+      },
+      "actors": {
+        "tree-boy": {
+          "image": "assets/layers/film-v2/SH06/actors/tree-boy.png",
+          "alpha": "assets/masks/film-v2/SH06/actors/tree-boy.png",
+          "bbox": [
+            1048,
+            294,
+            105,
+            99
+          ],
+          "source_parts": [
+            "tree-boy"
+          ]
+        }
+      },
+      "status": "clean-background-v2"
+    }
+  }
+}
